@@ -179,10 +179,12 @@
 
 									</div>
 
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									<p class="offset-bot-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 									consequat. Duis aute irure dolor in </p>
+
+									<p class="good-exist resp-tab"><i class="like-icon"></i>В наличии</p>
 
 									<ul class="good-list">
 										
@@ -194,11 +196,19 @@
 
 									</ul>
 
-									<div class="clearfix">
-										
-										<button type="button" class="red-btn left">В корзину</button>
+									<div class="buy-buttons offset-ziro">
 
-										<button type="button" class="green-btn right">Купить в 1 клик</button>
+										<div class="col">
+										
+											<button type="button" class="red-btn">В корзину</button>
+
+										</div>
+
+										<div class="col">
+
+											<button type="button" class="green-btn">Купить в 1 клик</button>
+
+										</div>
 
 									</div>
 
@@ -822,14 +832,32 @@
 				asNavFor: ".big-slider",
 				dots: false,
 				arrows: true,
-				focusOnSelect: true
+				focusOnSelect: true,
+				responsive: [
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1
+			      }
+			    }
+			  ]
 			});
 
 			$(".last-saws-slider").slick({
 				slidesToShow: 6,
 				slidesToScroll: 2,
 				dots: false,
-				arrows: true
+				arrows: true,
+				responsive: [
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 1
+			      }
+			    }
+			  ]
 			});
 
 		</script>

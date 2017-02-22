@@ -221,6 +221,10 @@ a:active {
     float: right;
 }
 
+.resp-tab {
+    display: none;
+}
+
 .slick-arrow {
     display: block;
     width: 40px;
@@ -363,7 +367,7 @@ a:active {
 /*-- /Breadcrumbs --*/
 
 .two-cols-sect {
-    padding: 5px 0;
+    padding: 7px 0;
     position: relative;
 }
 
@@ -422,16 +426,16 @@ a:active {
     padding: 20px 0 15px 0;
 }
 
-.good-price .col {
+.two-cols-sect .good-price .col {
     display: inline-block;
     vertical-align: middle;
 }
 
-.good-price .col-1 {
+.two-cols-sect  .good-price .col-1 {
     width: 60%;
 }
 
-.good-price .col-2 {
+.two-cols-sect  .good-price .col-2 {
     width: 40%;
     text-align: right;
 }
@@ -477,8 +481,12 @@ a:active {
     background-repeat: no-repeat;
 }
 
+.offset-bot-20 {
+    padding-bottom: 20px;
+}
+
 .good-list {
-    padding: 25px 0 0 0;
+    padding: 5px 0 0 0;
 }
 
 .good-list li {
@@ -525,6 +533,22 @@ a:active {
 
 .goodlist-icon.icon-3 {
     background-position: center -85px;
+}
+
+.buy-buttons .col {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.buy-buttons .col:nth-child(2n) {
+    text-align: right;
+}
+
+.buy-buttons .col button {
+    width: 98%;
+    max-width: 197px;
+    min-width: 98%;
 }
 
 .red-btn {
@@ -844,6 +868,7 @@ a:active {
 .testimonials-header h3 {
     display: inline-block;
     vertical-align: baseline;
+    margin: 0 2% 0 0;
     font-family: Arial, Verdana, sans-serif;
     font-size: 21px;
     line-height: 25px;
@@ -895,6 +920,10 @@ a:active {
     vertical-align: top;
     max-width: 30%;    
     overflow: hidden;
+
+}
+
+.testimonial-box .rating-box {
     position: absolute;
     top: 7px;
     right: 0;
@@ -1066,7 +1095,8 @@ a:active {
 .last-saw-slide p {
     font-family: Arial, Verdana, sans-serif;
     font-size: 14px;
-    line-height: 32px;
+    line-height: 18px;
+
     font-weight: normal;
     color: #4a4a4a;
     padding: 7px 0 0 0;
