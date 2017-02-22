@@ -33,7 +33,7 @@
 @media only screen and (max-width: 768px) {
 
 	.inner-row {
-	    padding: 0 20px;
+	    padding: 0 3%;
 	}
 
 	.main-content {
@@ -101,12 +101,21 @@
 	    line-height: 27px;
 	}
 
+	.inner-row {
+	    padding: 0 5%;
+	}
+
 	.slick-arrow.slick-prev {
 	    left: 0;
 	}
 
 	.slick-arrow.slick-next {
 	    right: 0;
+	}
+
+	.red-btn,
+	.green-btn {
+		margin: 10px 0;
 	}
 
 	.two-cols-sect .col.slider-col .big-slider,
@@ -121,6 +130,10 @@
 
 	.buy-buttons .col:nth-child(2n) {
 	    text-align: inherit;
+	}
+
+	.blue-btn {
+	    min-width: 100%;
 	}
 
 	.testimonials-footer button {
