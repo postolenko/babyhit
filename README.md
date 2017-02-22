@@ -1,1 +1,1 @@
-# http://postolenko.github.io/babyhit/carв.html
+# http://postolenko.github.io/babyhit/card.html
