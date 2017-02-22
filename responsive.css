@@ -127,6 +127,12 @@
 	    padding: 8px 0 35px 0;
 	}
 
+	.last-saws-slider-box {
+		background-image: url(img/slider_bg.jpg);
+		background-position: center;
+		background-repeat: repeat;
+	}
+
 	.last-saw-slide .img-box {
 	    display: block;
 	    height: 130px;
