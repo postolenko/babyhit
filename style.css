@@ -397,7 +397,11 @@ a:active {
     height: 350px;
 }
 
-.big-slider .pruduct-slide img {
+.big-slider .pruduct-slide .img-box {
+    height: 350px;
+}
+
+.big-slider .pruduct-slide .img-box img {
     display: block;
     min-width: 100%;
     min-height: 100%;
