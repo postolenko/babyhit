@@ -328,10 +328,6 @@ a:active {
     padding: 10px 0 5px 0;
 }
 
-.breadcrumbs {
-
-}
-
 .breadcrumbs li {
     display: inline-block;
     vertical-align: top;
@@ -368,6 +364,7 @@ a:active {
 
 .two-cols-sect {
     padding: 5px 0;
+    position: relative;
 }
 
 .two-cols-sect  .col.left {
@@ -392,6 +389,10 @@ a:active {
     padding: 10px;
 }
 
+.big-slider .pruduct-slide {
+    height: 350px;
+}
+
 .big-slider .pruduct-slide img {
     display: block;
     min-width: 100%;
@@ -405,7 +406,6 @@ a:active {
 
 .miniature-slider .img-box {
     display: block;
-    /*width: 172px;*/
     height: 120px;
     overflow: hidden;
     margin: 0 10px;
@@ -502,7 +502,6 @@ a:active {
 .good-list li.yellow {
     color: #ffae00;
 }
-
 
 .goodlist-icon {
     display: table-cell;
@@ -645,7 +644,6 @@ a:active {
     display: inline-block;
     vertical-align: top;
     margin: 5px 3%;
-    /*outline: 1px solid red;*/
 }
 
 .payments-thumbnail img {
@@ -790,10 +788,6 @@ a:active {
     color: #ffffff;
 }
 
-.good-desc-content {
-
-}
-
 .good-desc-table {
     display: table;
     width: 100%;
@@ -807,11 +801,6 @@ a:active {
     display: table-cell;
     vertical-align: top;
     padding-top: 21px;
-    /*padding: 0 0 20px 0;*/
-}
-
-.good-desc-table .table-row:nth-child(1) {
-    /*padding-top: 24px;*/
 }
 
 .good-desc-table .table-row:nth-child(1) .table-cell {
@@ -832,7 +821,6 @@ a:active {
 .good-desc-table .cell-2 {
     padding: 0 4%;
     width: 60%;
-    /*background: rgba(218, 0, 210, 1);*/
 }
 
 .good-desc-content .good-desc-table p {
@@ -846,10 +834,6 @@ a:active {
 
 .good-desc-content p {
     padding: 22px 4% 10px 4%;
-}
-
-.testimonials-sect {
-
 }
 
 .testimonials-header {
@@ -875,10 +859,6 @@ a:active {
     line-height: 25px;
     font-weight: normal;
     color: #bababa;
-}
-
-.testimonials {
-
 }
 
 .testimonial-box {
@@ -936,7 +916,6 @@ a:active {
     display: block;
     width: 18px;
     height: 18px;
-    /*outline: 1px solid red;*/
     background-image: url(img/rating_stars_sprite_03.png);
     background-position: 0 -7px;
     background-repeat: no-repeat;
